@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-comic-outline"
+description = "Comic / manga outline detection via multi-channel edge fusion + connected-components denoising. Pure OpenCV, no model download."
+version = "1.0.0"
+authors = [
+    { name = "EDY" }
+]
+
+[project.urls]
+Repository = "https://github.com/ComfyUI-ComicOutline"
+
+[tool.comfy]
+display_name = "🎨 漫画轮廓检测 (Comic Outline)"
+nodes = [
+    "nodes/ComicOutlineDetect.py",
+]
